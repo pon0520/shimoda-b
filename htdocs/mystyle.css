@@ -1,0 +1,108 @@
+body { 
+
+margin: 0px; 
+
+background-color: #ffffff; 
+}
+
+#mapField{
+  width:350px;
+  height:350px;
+}
+/*function mapInit(){
+  var centerPosition = new google.maps.LatLng(35.656956,139.695518)
+  var option = {
+    zoom : 18,
+    center : centerPosition,
+    mapTypeId : google.maps.mapTypeId.ROADMAP
+    };
+    //地図本体描画
+    var googlemap = new google.maps.Map(document.getElementById("mapField"),option);
+}
+  mapInit();
+  */  
+
+/*ここがページ全体の枠の部分です*/
+
+.all{
+width:800px;
+border-color:#999999;
+border-width:1px;
+border-style:solid;
+background-color: #ffffff;
+margin-left : auto ;
+margin-right : auto ;
+}
+
+/*ここまでがページ全体の枠の部分です*/
+
+
+
+/*↓↓ここがメニュー部分です↓↓*/
+
+.menu {
+
+background-color: #333333; 
+
+padding: 5px; 
+
+font-size: 1em; 
+
+text-align:center; 
+
+ 
+
+}
+
+/*↑↑ここがメニュー部分です↑↑*/
+
+
+
+h1 { color: blak; font-size: 1.5em; }
+
+
+
+h2 { color: dimgray; }
+
+
+
+p { 
+
+color: dimgray; 
+
+line-height: 1.3em;  
+
+
+
+} 
+
+
+
+a:link { color: silver; }
+
+a:visited { color: silver; }
+
+
+
+a:hover { 
+
+color: greenyellow; 
+
+background-color: #666666; 
+
+
+
+} 
+
+
+
+address{
+
+font-style:normal;
+
+text-align:center;
+
+
+
+}
+
